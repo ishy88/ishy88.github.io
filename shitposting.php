@@ -5,15 +5,7 @@
 	Released under the Creative Commons Attribution 3.0 license (nodethirtythree.com/license)
 -->
 <html>
-	<head>
-		<title>GayHomos.space: The Final Frontier</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--5grid--><script src="css/5grid/viewport.js"></script><!--[if lt IE 9]><script src="css/5grid/ie.js"></script><![endif]--><link rel="stylesheet" href="css/5grid/responsive.css" /><!--/5grid-->
-		<link rel="stylesheet" href="css/style.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
-	</head>
+	<?php include("includes/header.html"); ?>
 	<body class="subpage">
 	
 		<!-- Header -->
@@ -79,7 +71,6 @@
 										<h2>Moonrunes</h2>
 									</header>
 									<ul class="link-list">
-										<li><a href="https://youtu.be/5CikgHaV7jE" target="_blank">Your Waifu become a Real</a></li>
 										<li><a href="https://youtu.be/gTxlzR8sd70" target="_blank">Weeb Tunes</a></li>
 										<li><a href="http://www.mangatown.com/hot/yaoi/" target="_blank">Some lewd stuff</a></li>
 									</ul>
@@ -89,61 +80,6 @@
 					</div>
 				</div>
 			</div>
-
-		<!-- Footer -->
-			<div id="footer-wrapper">
-				<footer id="footer" class="5grid">
-					<div class="8u-first">
-					
-						<!-- Links -->
-							<section>
-								<h2>Quicklinks: The Gayest Kind of Link</h2>
-								<div class="3u-first">
-									<ul class="link-list last-child">
-										<li><a href="legacy/index.html">Legacy Homepage</a></li>
-										<li><a href="http://lmgtfy.com/?q=gay+porn">One Rule</a></li>
-									</ul>
-								</div>
-								<div class="3u">
-									<ul class="link-list last-child">
-										<li><a href="http://cf-vanguard.com/en/">Best Girl</a></li>
-										<li><a href="https://youtu.be/hQmminIZj8k">Our Theme Song</a></li>
-									</ul>
-								</div>
-								<div class="3u">
-									<ul class="link-list last-child">
-										<li><a href="https://www.reddit.com/r/taylorswiftarmpit/">Our Queen</a></li>
-										<li><a href="https://www.seacaptaindate.com/">Acquire GF</a></li>
-									</ul>
-								</div>
-								<div class="3u">
-									<ul class="link-list last-child">
-										<li><a href="error/404.html">404</a></li>
-										<li><a href="https://www.youtube.com/user/Nyanners">Weeb Tunes</a></li>
-									</ul>
-								</div>
-							</section>
-
-					</div>
-					<div class="4u">
-						
-						<!-- Blurb -->
-							<section>
-								<h2>Contact Us</h2>
-								<p>
-									Email: <a href="mailto:admin@gayhomos.com">admin@gayhomos.com</a><br>
-									Facebook: <a href="https://www.facebook.com/gaymoho/">gaymoho</a><br>
-									GitHub: <a href="https://github.com/callmeish/">callmeish</a><br>
-								</p>
-							</section>
-					
-					</div>
-				</footer>
-			</div>
-
-		<!-- Copyright -->
-			<div id="copyright">
-				(c) 2016 GayHomos.space. All rights reserved. (No idea if this is binding) Design by <a href="http://nodethirtythree.com/">nodethirtythree</a> + <a href="http://www.freecsstemplates.org/">FCT</a>.
-			</div>
+	<?php include("includes/footer.html"); ?>
 	</body>
 </html>
